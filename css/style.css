@@ -24,9 +24,21 @@ body{
 }
 
 .logo{
+    font-family: 'Raleway';
     color: var(--title-text-color);
     text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
+.logo .color{
+  color: var(--button-bg-color)   
+}
+
 
 .site-nav .link{
     color: var(--title-text-color);
@@ -45,6 +57,7 @@ body{
 .auth-nav .link{
     color: var(--title-text-color);
     text-decoration: none;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
@@ -67,6 +80,8 @@ body{
 /* title h2 */
 .section-title{
     color:var(--title-text-color);
+    /* visibility: hidden; */
+      /* display: none; */
 } 
 
 
@@ -96,7 +111,7 @@ body{
 .business .business-title{
     color: var(--secondary-text-color);
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -169,16 +184,29 @@ body{
 .breadcrumb .breadcrumb-button{
     background-color:var(--footer-text-color);
     cursor: pointer;
+    color:var(--button-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+
    }
 .breadcrumb .breadcrumb-button:hover,
 .breadcrumb .breadcrumb-button:focus{
    background-color: var(--accent_color);
+   color:var(--secondary-text-color)
    }
 
    /* portfolio-main */
 .portfolio-main{
     background-color:var(--secondary-text-color);
    }
+
+.portfolio-main a{
+    cursor:pointer;
+    text-decoration: none;
+}
 
 .portfolio-main-list{
     background-color:var(--secondary-text-color);
@@ -195,6 +223,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:var(--primary-text-color)
 }
 
  
@@ -214,6 +243,10 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer .color{
+  color: var(--button-bg-color)   
 }
 
 .footer-description{
