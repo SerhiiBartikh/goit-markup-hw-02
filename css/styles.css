@@ -191,6 +191,7 @@ body{
 /* section breadcrumb-item */
 
  .breadcrumb-button{
+    font-family: "Roboto", sans-serif;
     background-color:var(--footer-text-color);
     cursor: pointer;
     color:var(--button-bg-color);
