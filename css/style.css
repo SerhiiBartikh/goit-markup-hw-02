@@ -19,13 +19,16 @@ body{
 
 /* header */
 
-.list{
+.link{
     list-style: none;
+    text-decoration: none;
 }
 
+
+
 .logo{
-    font-family: 'Raleway';
-    color: var(--title-text-color);
+    font-family: 'Raleway' sans-serif;
+    color: var(--button-bg-color);
     text-decoration: none;
     font-weight: 800;
     font-size: 18px;
@@ -36,11 +39,14 @@ body{
 
 }
 .logo .color{
-  color: var(--button-bg-color)   
+    color: var(--title-text-color)
 }
 
+.adress-info{
+   font-style: normal; 
+}
 
-.site-nav .link{
+.site-nav .nav-link{
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -48,13 +54,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
     color: var(--accent_color);
 }
 
 
-.auth-nav .link{
+.auth-nav .auth-link{
     color: var(--title-text-color);
     text-decoration: none;
     font-style: normal;
@@ -62,47 +68,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;  
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .auth-link:hover,
+.auth-nav .auth-link:focus {
     color: var(--accent_color);
     }
-
-
-
-
-
-
-/* section */
-.section-first{
-    background-color: var(--secondary-text-color);
-}
-
-/* title h2 */
-.section-title{
-    color:var(--title-text-color);
-    /* visibility: hidden; */
-      /* display: none; */
-} 
-
-
-.work-list .title{
-    color:var(--title-text-color);
-}
-
-.team-list .title{
-    color:var(--title-text-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.team-list .description{
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-}
-
 
 /* button- business */
 .business{
@@ -119,6 +88,7 @@ body{
 
 
 .business .button{
+    font-family: "Roboto", sans-serif;
     color: var(--secondary-text-color);
     background-color: var(--button-bg-color);
     cursor: pointer;
@@ -130,9 +100,38 @@ body{
 
 
 }
-.button:hover{
+.button:hover,
+.button:focus{
     background-color: var(--accent_color);
 }
+
+/* section */
+.section-first{
+    background-color: var(--secondary-text-color);
+}
+
+/* title h2 */
+.section-title{
+    color:var(--title-text-color);
+    /* visibility: hidden; */
+      /* display: none; */
+} 
+
+
+.work-list .title{
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.work-list .description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 /* section2 */
 .section-job{
@@ -145,6 +144,7 @@ body{
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 
 /* section team */
@@ -157,11 +157,13 @@ body{
 }
 
 .section-team .section-team-title{
+    color:var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .section-team-list .list-title{
@@ -181,7 +183,7 @@ body{
 
 /* section breadcrumb-item */
 
-.breadcrumb .breadcrumb-button{
+ .breadcrumb-button{
     background-color:var(--footer-text-color);
     cursor: pointer;
     color:var(--button-bg-color);
@@ -192,16 +194,14 @@ body{
     letter-spacing: 0.04em;
 
    }
-.breadcrumb .breadcrumb-button:hover,
-.breadcrumb .breadcrumb-button:focus{
+ .breadcrumb-button:hover,
+ .breadcrumb-button:focus{
    background-color: var(--accent_color);
    color:var(--secondary-text-color)
    }
 
    /* portfolio-main */
-.portfolio-main{
-    background-color:var(--secondary-text-color);
-   }
+
 
 .portfolio-main a{
     cursor:pointer;
@@ -234,7 +234,8 @@ body{
     background: var(--title-text-color)
 }
 .footer-logo{
-    color: var(--footer-text-color);
+    font-family: 'Raleway' sans-serif; ;
+    color: var(--button-bg-color);
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 800;
@@ -246,7 +247,7 @@ body{
 }
 
 .footer .color{
-  color: var(--button-bg-color)   
+    color: var(--footer-text-color);
 }
 
 .footer-description{
