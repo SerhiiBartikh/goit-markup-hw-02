@@ -14,15 +14,16 @@ body{
    font-family: "Roboto", sans-serif;
 }
 
-
+.link{
+    list-style: none;
+   
+    
+}
 
 
 /* header */
 
-.link{
-    list-style: none;
-    text-decoration: none;
-}
+
 
 
 
@@ -203,7 +204,7 @@ body{
    /* portfolio-main */
 
 
-.portfolio-main a{
+.portfolio-main-list a{
     cursor:pointer;
     text-decoration: none;
 }
