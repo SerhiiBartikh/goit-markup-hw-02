@@ -242,7 +242,7 @@ body{
     background: var(--title-text-color)
 }
 .footer-logo{
-    font-family: 'Raleway' sans-serif; 
+    font-family: 'Raleway', sans-serif; 
     color: var(--button-bg-color);
     text-decoration: none;
     font-weight: 800;
